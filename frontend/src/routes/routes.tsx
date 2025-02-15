@@ -4,19 +4,19 @@ export const publicRoutes = [
   {
     id: "community",
     label: "Community",
-    icon: House, // ✅ This is correct
+    icon: House, 
     link: "/",
   },
   {
     id: "reviews",
     label: "Reviews",
-    icon: Star, // ✅ This is correct
+    icon: Star,
     link: "/reviews",
   },
   {
     id: "faculties",
     label: "Faculties",
-    icon: Books, // ✅ This is correct
+    icon: Books, 
     link: "/faculties",
   },
 ];
