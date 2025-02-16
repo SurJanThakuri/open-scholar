@@ -20,7 +20,7 @@ const Navbar = () => {
   const loggedIn = false;
 
   return (
-    <div className="bg-primary text-text-light grid col-span-3 grid-flow-col py-1 px-20">
+    <div className="bg-primary text-text-light grid col-span-3 grid-flow-col py-1 px-20 fixed top-0 w-full z-10">
       <div className="flex items-center gap-2">
         <DoorOpen weight="fill" height={50} width={40} className="cursor-pointer" />
         <Searchbar />

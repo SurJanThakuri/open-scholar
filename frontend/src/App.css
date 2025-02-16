@@ -1,0 +1,41 @@
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .thin-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+  }
+  
+  .thin-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(168, 175, 182, 0.164);
+    border-radius: 10px;
+    z-index: 1000; 
+  }
+  
+  .thin-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .thin-scrollbar::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  .thin-scrollbar::-webkit-scrollbar-button {
+    display: none; 
+  }
